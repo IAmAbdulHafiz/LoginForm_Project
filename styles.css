@@ -54,5 +54,18 @@ body{
 }
 
 h1 {
+<<<<<<< HEAD
     color: green;
 }
+=======
+<<<<<<< Updated upstream
+    color: rgb(230, 12, 12);
+}
+=======
+    color: white;
+}
+p {
+    color: white;
+}
+>>>>>>> Stashed changes
+>>>>>>> c5d6696260e75db2c174e75f5ee8faf4640e494b
