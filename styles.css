@@ -60,7 +60,8 @@ h1 {
 =======
     color: white;
 }
-p {
+p <p>Welcome back! Please enter your credentials to sign in.</p>
+            </div>{
     color: white;
 }
 >>>>>>> Stashed changes
