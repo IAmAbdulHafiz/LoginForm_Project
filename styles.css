@@ -12,7 +12,8 @@ body{
 }
 
 .left-container {
-    background-color: gold;
+    background-color:white
+     ;
     width: 40%;
     height: 80vh;
     float: left;
@@ -50,4 +51,8 @@ body{
     flex-direction: column;
     width: 80%;
     margin: 20px auto;
+}
+
+h1 {
+    color: white;
 }
