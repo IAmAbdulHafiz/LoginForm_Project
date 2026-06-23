@@ -73,6 +73,8 @@ body{
 .extras a{color:var(--muted);text-decoration:none}
 .extras a:hover{color:#fff}
 
+
+
 @media (max-width:720px){
     .card{padding:1.5rem;border-radius:12px}
     .row{flex-direction:column;align-items:stretch}
@@ -86,4 +88,10 @@ body{
 @media (max-width:420px){
     .brand h1{font-size:1.5rem}
     .background-shapes{display:none}
+}
+
+#myi-style{
+    font-size: 1.25rem;
+    color: #fff;
+    padding-right: 10px;
 }
