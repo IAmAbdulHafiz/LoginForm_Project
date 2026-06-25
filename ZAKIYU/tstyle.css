@@ -1,0 +1,99 @@
+:root {
+    --primary-color: #002060;
+    --secondary-color: #FFA500;
+    --success-color: #28a745;
+    --warning-color: #ffc107;
+    --danger-color: #dc3545;
+    --border-color: #e5e7eb;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.custom-table thead {
+    background: var(--primary-color);
+    color: #fff;
+}
+
+.custom-table th,
+.custom-table td {
+    padding: 15px 20px;
+    text-align: left;
+}
+
+.custom-table th {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.custom-table tbody tr {
+    border-bottom: 1px solid var(--border-color);
+    transition: all 0.3s ease;
+}
+
+.custom-table tbody tr:hover {
+    background: #f8fafc;
+}
+
+.custom-table tbody tr:last-child {
+    border-bottom: none;
+}
+
+.badge {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.approved {
+    background: rgba(40, 167, 69, 0.15);
+    color: var(--success-color);
+}
+
+.pending {
+    background: rgba(255, 193, 7, 0.15);
+    color: #b8860b;
+}
+
+.rejected {
+    background: rgba(220, 53, 69, 0.15);
+    color: var(--danger-color);
+}
+
+.btn-view {
+    background: var(--secondary-color);
+    color: #fff;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-view:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+}
+
+@media (max-width: 768px) {
+    .custom-table th,
+    .custom-table td {
+        padding: 12px;
+        font-size: 14px;
+    }
+}
